@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=line
+comment0.target=java.lang.String\ cleanString(java.lang.String)
+comment0.text=\n\ Pre-processing\:\ clean\ a\ text\ string\ to\ characters,\ preserving\ case,\ and\ single\ white\ spaces\n\ @param\ line\ input\ string\ containing\ text,\ whitespace,\ punctuation\ and\ control\ characters\n\ @return\ String\ containing\ the\ alphabetic\ characters\ and\ single\ white\ spaces\ only\n
+comment1.params=lines
+comment1.target=java.lang.String\ cleanString(java.util.ArrayList)
+comment1.text=\n\ clean\ an\ arraylist\ of\ strings\ to\ make\ a\ single\ char-only\ string\n
+comment2.params=dirname
+comment2.target=java.util.ArrayList\ getAllTxtFileNames(java.lang.String)
+comment2.text=\n\ List\ the\ names\ of\ all\ text\ files\ in\ a\ given\ directory\n\ @param\ String\ dirname\ name\ of\ the\ directory\ to\ read\n\ @return\ ArrayList<String>\ names\ of\ all\ the\ .txt\ files\ in\ dirname\n
+comment3.params=filename
+comment3.target=java.util.ArrayList\ readFile(java.lang.String)
+comment3.text=\ Read\ a\ text\ file\ into\ an\ arraylist\ of\ lines\ of\ text.\n\ @param\ String\ filename\ the\ text\ file\ to\ be\ read\n\ @return\ ArrayList<String>\ of\ lines\ of\ text\ from\ the\ file\n
+comment4.params=filename\ text
+comment4.target=void\ writeFile(java.lang.String,\ java.util.ArrayList)
+comment4.text=\n\ Write\ the\ lines\ of\ text\ in\ an\ array\ list\ to\ a\ given\ filename\n\ @param\ filename\ \ The\ filename\ to\ write\ to\n\ @param\ text\ \ \ \ \ \ An\ arraylist\ of\ text\ lines\ to\ be\ written\n
+numComments=5

@@ -1,0 +1,44 @@
+Class documentation
+<---- javadoc command: ---->
+/Applications/BlueJ 3.1.1/BlueJ.app/Contents/Frameworks/jdk.framework/Versions/A/Contents/Home/bin/javadoc
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.7
+-classpath
+/Applications/BlueJ 3.1.1/BlueJ.app/Contents/Resources/Java/bluejcore.jar:/Applications/BlueJ 3.1.1/BlueJ.app/Contents/Resources/Java/junit-4.8.2.jar:/Users/Uni/Desktop/cits1001/project-2-2014-published/pinyin4j-2.5.0/lib/pinyin4j-2.5.0.jar:/Users/Uni/Desktop/cits1001/project-2-2014-published
+-d
+/Users/Uni/Desktop/cits1001/project-2-2014-published/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+/Applications/BlueJ 3.1.1/BlueJ.app/Contents/Resources/Java/bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+/Users/Uni/Desktop/cits1001/project-2-2014-published/NgramModel.java
+<---- end of javadoc command ---->
+Loading source file /Users/Uni/Desktop/cits1001/project-2-2014-published/NgramModel.java...
+Constructing Javadoc information...
+Standard Doclet version 1.7.0_45
+Building tree for all the packages and classes...
+Generating /Users/Uni/Desktop/cits1001/project-2-2014-published/doc/NgramModel.html...
+/Users/Uni/Desktop/cits1001/project-2-2014-published/NgramModel.java:29: warning - @param argument "int" is not a parameter name.
+/Users/Uni/Desktop/cits1001/project-2-2014-published/NgramModel.java:29: warning - @param argument "String" is not a parameter name.
+Generating /Users/Uni/Desktop/cits1001/project-2-2014-published/doc/package-frame.html...
+Generating /Users/Uni/Desktop/cits1001/project-2-2014-published/doc/package-summary.html...
+Generating /Users/Uni/Desktop/cits1001/project-2-2014-published/doc/constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating /Users/Uni/Desktop/cits1001/project-2-2014-published/doc/allclasses-frame.html...
+Generating /Users/Uni/Desktop/cits1001/project-2-2014-published/doc/allclasses-noframe.html...
+Generating /Users/Uni/Desktop/cits1001/project-2-2014-published/doc/index.html...
+Generating /Users/Uni/Desktop/cits1001/project-2-2014-published/doc/stylesheet.css...
+2 warnings

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ OneGramDemo()
+comment0.text=\n\ Show\ how\ well\ a\ text\ conforms\ to\ expected\ English\ frequencies\n\ using\ a\ 1-gram\ model\n
+comment1.params=k\ f1\ f2\ f3\ s1\ s2\ s3
+comment1.target=void\ experimentResults(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\n\ Helper\ method\ to\ print\ results\ of\ Markov\ experiment\n\ @param\ k\ int\ order\ of\ the\ Markov\ model\n\ @param\ f1,\ f2,\ f3\ file\ names\ used\ for\ data\n\ @param\ s1,\ s2,\ s3\ cleaned\ strings\ used\ for\ training\ (s1,s2)\ and\ testing\ (s3)\n
+comment2.params=
+comment2.target=void\ languageDemo()
+comment3.params=
+comment3.target=void\ classicsDemo()
+comment4.params=
+comment4.target=void\ electionDemo()
+comment5.params=
+comment5.target=void\ runAllDemos()
+numComments=6

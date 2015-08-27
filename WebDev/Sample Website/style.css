@@ -1,0 +1,130 @@
+
+/*About Me Page Styling*/
+
+/*header*/
+
+body{
+	background: url(images/tweed/tweed.png);
+	color: #bbbbbb;
+	font-family: "Anaheim", sans-serif;
+}
+
+
+
+
+a{
+	text-decoration: none;
+	color: #bbbbbb;
+}
+
+
+
+header{
+	text-align: center;
+
+}
+
+header h3{
+	font-size: 40px;
+	
+}
+
+
+img#profilepic{
+	border: 3px solid #bbbbbb;
+	margin-top: 70px;
+	border-radius: 8px;
+}
+
+.resize{
+	width: 180px;
+	height: auto;
+}
+
+div#navbar{
+	height: 275px;
+	width: 150px;
+	border: 3px #bbbbbb solid;
+	text-align: center;	
+	position: absolute;
+	left: 0px;
+	top: 277px;
+	border-radius: 16px;
+	background: url(images/stardust/stardust.png);
+
+}
+
+ul{
+	padding: 0;
+	display: block;
+	
+
+}
+
+ul li{
+	font-weight: bold;
+	padding: 20px;
+	display: block;
+}
+
+
+/*body text*/
+
+div#content{
+	height: 975px;
+	width: 750px;
+	position: relative;
+	margin: 0 auto;
+
+}
+
+div#content p{
+	
+	font-size: 15px;
+	margin-bottom: 55px;
+	line-height: 35px;
+
+}
+
+.smallimages{
+	padding: 5px;
+	width: 200px;
+	height: auto;
+	position: relative;
+	
+
+}
+
+#pic1{
+	float: right;
+}
+
+#pic2{
+	float: left;
+}
+
+#pic3{
+	float: right;
+}
+/*contact bar*/
+
+div#contactbar{
+	height: 275px;
+	width: 150px;
+	border: 3px #bbbbbb solid;
+	text-align: center;	
+	position: absolute;
+	right: 0px;
+	top: 277px;
+	border-radius: 16px;
+	display: inline;
+	background: url(images/stardust/stardust.png)
+}
+
+
+
+
+
+
+
+

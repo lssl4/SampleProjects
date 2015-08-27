@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ BiGramDemo()
+comment0.text=\n\ Show\ how\ well\ a\ text\ conforms\ to\ expected\ English\ frequencies\n\ using\ a\ bi-gram\ model\n
+comment1.params=k\ f1\ f2\ f3\ s1\ s2\ s3
+comment1.target=void\ experimentResults(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\n\ Helper\ method\ to\ print\ results\ of\ Markov\ experiment\n\ @param\ k\ int\ order\ of\ the\ Markov\ model\n\ @param\ f1,\ f2,\ f3\ file\ names\ used\ for\ data\n\ @param\ s1,\ s2,\ s3\ cleaned\ strings\ used\ for\ training\ (s1,s2)\ and\ testing\ (s3)\n
+comment2.params=
+comment2.target=void\ languageDemo()
+comment2.text=\n\ Language\ demo\ among\ German,\ French\ and\ English\ texts.\n
+comment3.params=n\ lang
+comment3.target=void\ allNgrams(int,\ int)
+comment3.text=\n\ Prints\ out\ the\ character\ frequencies\ of\ each\ language.\n\ @param\ n\ accepts\ an\ int,\ desired\ number\ of\ n-grams\n\ @param\ lang\ accepts\ an\ int,\ 1\:English,\ 2\:French,\ 3\:\ German\n
+comment4.params=s
+comment4.target=void\ decipherTextLanguage(java.lang.String)
+comment5.params=n\ lang\ s
+comment5.target=void\ runAllDemos(int,\ int,\ java.lang.String)
+comment5.text=\n\ Run\ all\ the\ demos\n
+comment6.params=str
+comment6.target=boolean\ palindrome(java.lang.String)
+numComments=7

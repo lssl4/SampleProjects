@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=k\ text1\ text2\ test
+comment0.target=BestModel(int,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment0.text=\n\ Generate\ k-th\ order\ Markov\ models\ for\ text1\ and\ text2\n\ and\ calculate\ loglikelihoods\ of\ test\ against\ each\ model.\n\ These\ structures\ can\ then\ be\ queried\ to\ find\ best\ matches.\n\ @return\ true\ if\ test\ is\ closest\ to\ text1\ and\ false\ otherwise\n
+comment1.params=whichModel
+comment1.target=java.util.HashMap\ logLikelihood(int)
+comment1.text=\ \n\ Get\ average\ log\ likelihood\ for\ the\ current\ models.\n\ @input\ whichModel\ 1\=model1,\ 2\=model2\n\ \n\ @return\ HashMap<String,Double>\ log\ likelihood\ for\ each\ word\ of\ test\n
+comment2.params=logs
+comment2.target=double\ totalLogLikelihood(java.util.HashMap)
+comment2.text=\nGets\ the\ total\ of\ all\ the\ loglikelihood\ values\ from\ the\ ngram\ words.\n@input\ HashMap<String,Double>\ logs\ \n@return\ double\ total\ value\n
+comment3.params=logs
+comment3.target=double\ averageLogLikelihood(java.util.HashMap)
+comment3.text=\n\ Given\ the\ HashMap\ logs,\ find\ the\ total\ value\ and\ divide\ it\ by\ the\ total\ number\ of\ Ngrams\ created\n\ @input\ HashMap<String,Double>\ logs\ \n\ @return\ a\ double\ average\ \n
+comment4.params=
+comment4.target=boolean\ chooseBestModel()
+comment4.text=\n\ Given\ precalculated\ model1,\ model2\ and\ loglike1\ and\ loglike2\ find\ best\ match\ to\ test\n\ \n\ @return\ true\ if\ text1\ is\ best\ match\ and\ false\ if\ text2\ is\ best\ match\n
+comment5.params=
+comment5.target=double\ confidence()
+comment5.text=\n\ @return\ confidence\ measure\ in\ best\ match\n
+comment6.params=topn
+comment6.target=java.util.HashMap\ explainBestModel(int)
+comment6.text=\n\ Find\ the\ top\ n\ words\ for\ which\ the\ difference\ in\ the\ \n\ log\ probabilities\ of\ two\ models\ are\ greatest.\n\ @param\ topn\ int\ number\ of\ obs,difs\ to\ return\n\ @return\ HashMap<String,Double>\ top\ k\ strings\ and\ \n\ \ \ \ their\ loglikelihood\ differences\ between\ model\ 1\ and\ model\ 2\n
+numComments=7

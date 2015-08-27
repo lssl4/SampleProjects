@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ setUp()
+comment0.text=\n\ Sets\ up\ the\ test\ fixture.\n\n\ Called\ before\ every\ test\ case\ method.\n
+comment1.params=
+comment1.target=void\ testLogLikelihood()
+comment2.params=
+comment2.target=void\ testAvgLogLikelihood()
+comment3.params=
+comment3.target=void\ testTotalLogLikelihood()
+comment4.params=
+comment4.target=void\ testTotalLogLikelihoodDuplicates()
+comment5.params=
+comment5.target=void\ testAvgLogLikelihoodsmodel2()
+comment6.params=
+comment6.target=void\ testExplainBestModel()
+comment7.params=
+comment7.target=void\ testChooseBestModel()
+comment8.params=
+comment8.target=void\ testChooseNotBestModel()
+comment9.params=
+comment9.target=void\ testChooseBestModel3()
+numComments=10

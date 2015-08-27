@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=imageFilename
+comment0.target=java.awt.image.BufferedImage\ readImageFile(java.lang.String)
+comment0.text=\ \n\ Read\ an\ image\ from\ a\ file\ \n\ see\ http\://docs.oracle.com/javase/tutorial/2d/images/loadimage.html\n
+numComments=1
