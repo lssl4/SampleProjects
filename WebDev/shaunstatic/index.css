@@ -1,0 +1,169 @@
+*{
+
+	font-family: Calibri, Arial, sans-serif;
+}
+
+header{
+
+	margin: 2% 0 2% 0;
+	text-align: center;
+	font-size: 2em;
+}
+
+footer{
+
+	margin: 5% 0 2% 0;
+	text-align: center;
+	font-size: 1em;
+	color: white;
+	background: black;
+}
+
+body{
+	background: #aa7243;
+	margin: 0 20% 0 20%;
+}
+
+h1{
+	margin: 2% auto;
+	text-align: center;
+}
+
+h4{
+	margin: 2% auto;
+
+
+}
+
+/*Influenced from: (W3schools.com 2016)*/
+#thenav ul{
+
+	list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #994d00;
+    text-align: center;
+    border: 2px solid #262626;
+
+}
+
+#thenav li{
+	margin-left: 5%;
+	margin-right: 5%;
+	display: inline-block;
+	padding: 2%;
+
+}
+
+
+
+#thenav a{
+	
+
+	text-decoration: none;
+	font: Times;
+	color: black;
+
+
+}
+
+
+
+article{
+	/*To make sure that new articles are under floating elements */
+	clear: both;
+	margin: 3% auto;
+
+}
+
+#thenav li:hover {
+
+    background-color: #ff8000;
+}
+
+img{
+	border: 1px solid black;
+}
+
+
+/* Taken from: (Webdesignerwall.com 2011)*/
+.centerVideo{
+	
+	margin-top: 5%;
+	margin-bottom: 5%;
+    position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+
+
+}
+
+
+.centerImages{
+	width: 50%;
+	margin: 5% auto;
+	display: block;
+
+}
+
+/* Taken from: (Webdesignerwall.com 2011)*/
+iframe{
+	border: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+}
+
+
+
+figcaption {
+ 	margin: 2% auto;
+    text-align: center;
+}
+
+
+.gamebutton{
+	margin: 5% auto;
+	width: 30%;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	border-radius: 10px;
+	display: block;
+	padding: 2%;
+	font-size: 1.5em;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	background-color: #91623b;
+	border: 2px white solid;
+
+}
+
+.gamebutton:hover{
+
+	background-color: #6d492c;
+}
+
+
+/*CSS for references.html*/
+
+
+#references li{
+
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+/*CSS for game.html*/
+
+#myGame{ 
+	background: #fff;
+	width: 80%;
+	display: block;
+	margin: 5% auto;
+	
+}
